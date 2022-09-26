@@ -4,3 +4,6 @@
 
 
 [![Actions Status](https://github.com/AzamatAk/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/AzamatAk/python-project-49/actions)
+
+https://asciinema.org/a/oCuKXIZNQFLgfnw7N3Ix1qHAA
+
