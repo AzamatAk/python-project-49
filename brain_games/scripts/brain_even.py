@@ -5,7 +5,6 @@ import prompt
 def main():
     print("Welcome to the Brain Games!")
 
-
     def welcome_user():
         name = prompt.string('May I have your name? ')
         print('Hello, ' + name + '!')
@@ -47,10 +46,8 @@ def main():
         if cor_sum == 3:
             print('Congratulations, ' + name + '!')
 
-
     welcome_user()
 
 
 if __name__ == "__main__":
     main()
-
