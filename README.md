@@ -5,5 +5,6 @@
 
 [![Actions Status](https://github.com/AzamatAk/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/AzamatAk/python-project-49/actions)
 
-https://asciinema.org/a/oCuKXIZNQFLgfnw7N3Ix1qHAA
+brain-even: https://asciinema.org/a/oCuKXIZNQFLgfnw7N3Ix1qHAA
 
+brain-calc: https://asciinema.org/a/RCarqlDC087Le27Ge68PbtwbB
