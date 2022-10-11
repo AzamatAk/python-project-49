@@ -39,7 +39,8 @@ def main():
                           'Let\'s try again, ' + name + '!')
                     break
                 else:
-                    print(answer + ' is wrong answer ;(. Correct answer was "no".\n'
+                    print(answer + ' is wrong answer ;(.'
+                                   ' Correct answer was "no".\n'
                                    'Let\'s try again, ' + name + '!')
                     break
 

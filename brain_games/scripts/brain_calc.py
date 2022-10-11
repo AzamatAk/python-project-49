@@ -27,9 +27,10 @@ def main():
                 if result == int(answer):
                     print('Correct!')
                     i += 1
-                    cor_sum += cor_sum
+                    cor_sum += 1
                 else:
-                    print('\'' + str(answer) + '\' is wrong wanswer;(. Correct answer was \'' + str(result) + '\'.')
+                    print('\'' + str(answer) + '\' is wrong wanswer;(.'
+                          'Correct answer was \'' + str(result) + '\'.')
                     print('Let\'s try again, ' + name + '!')
                     break
             elif rmo == '-':
@@ -39,7 +40,8 @@ def main():
                     i += 1
                     cor_sum += 1
                 else:
-                    print('\'' + str(answer) + '\' is wrong wanswer;(. Correct answer was \'' + str(result) + '\'.')
+                    print('\'' + str(answer) + '\' is wrong wanswer;(.'
+                          'Correct answer was \'' + str(result) + '\'.')
                     print('Let\'s try again, ' + name + '!')
                     break
             else:
@@ -49,15 +51,16 @@ def main():
                     i += 1
                     cor_sum += 1
                 else:
-                    print('\'' + str(answer) + '\' is wrong wanswer;(. Correct answer was \'' + str(result) + '\'.')
+                    print('\'' + str(answer) + '\' is wrong wanswer;(.'
+                          'Correct answer was \'' + str(result) + '\'.')
                     print('Let\'s try again, ' + name + '!')
                     break
 
         if cor_sum == 3:
             print('Congratulations, ' + name + '!')
 
-
     welcome_user()
+
 
 if __name__ == "__main__":
     main()

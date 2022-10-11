@@ -1,6 +1,7 @@
 from random import randint
 import prompt
 
+
 def main():
     print('Welcome to the brain Games!')
 
@@ -8,7 +9,7 @@ def main():
         name = prompt.string('May I have your name? ')
         print('Hello, ' + name + '!')
         print('What number is missing in the progression?')
-        
+
         progression_length = 10
         cor_sum = 0
         i = 1
@@ -18,7 +19,7 @@ def main():
                 end = start + (progression_length * step)
                 progression = list(range(start, end, step))
                 return progression
-            
+
             def game():
                 start = randint(1, 100)
                 step = randint(1, 10)
@@ -29,7 +30,7 @@ def main():
                 progression.insert(miss_index, '..')
                 question = ' '.join([str(i) for i in progression])
                 return question
-            
+
             start_game = game()
             print('Question: ' + start_game)
             user_answ = input('Your answer: ')
@@ -39,13 +40,13 @@ def main():
                 i += 1
                 cor_sum += 1
             else:
-                print('\'' + str(user_answ) + '\' is wrong answer ;(. Correct answer was \'' + str(answer) + '\'.')
+                print('\'' + str(user_answ) + '\' is wrong answer ;(.'
+                      ' Correct answer was \'' + str(answer) + '\'.')
                 print('Let\'s try again, ' + name + '!')
                 break
 
             if cor_sum == 3:
                 print('Congratulations, ' + name + '!')
-
 
     welcome_user()
 
