@@ -6,6 +6,7 @@ DESCRIPTION = 'What is the result of the expression?'
 MIN_NUM = 1
 MAX_NUM = 100
 
+
 def make_game():
     op_first = randint(MIN_NUM, MAX_NUM)
     op_second = randint(MIN_NUM, MAX_NUM)

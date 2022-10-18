@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Azamat <you@example.com>"]
+description = "Игры разума"
+authors = ["Azamat ahavov_azamat@mail.ru"]
 readme = "README.md"
 packages = [
   {include = "brain_games"},
+]
+repository = "https://github.com/AzamatAk/python-project-49"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
 [tool.poetry.dependencies]

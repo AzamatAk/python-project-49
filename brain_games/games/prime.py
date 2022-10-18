@@ -22,4 +22,3 @@ def make_game():
         return question, 'no'
     else:
         return question, 'yes'
-
