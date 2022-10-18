@@ -1,12 +1,14 @@
 from random import randint
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def make_all_games():
-    min_num = 1
-    max_num = 99
-    num = randint(min_num, max_num)
+MIN_NUM = 1
+MAX_NUM = 99
+
+
+def make_game():
+    num = randint(MIN_NUM, MAX_NUM)
     question = str(num)
     if num % 2 == 0:
         correct_answer = 'yes'

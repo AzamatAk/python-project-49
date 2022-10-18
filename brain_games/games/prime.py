@@ -1,21 +1,25 @@
 from random import randint
 
-description = 'Answer "yes" if given number is prime. ' \
+DESCRIPTION = 'Answer "yes" if given number is prime. ' \
               'Otherwise answer "no".'
+MIN_NUM = 1
+MAX_NUM = 100
 
 
 def is_prime(number):
     if number == 1:
-        return "no"
+        return False
     for i in range(2, (number // 2 + 1)):
         if number % i == 0:
-            return "no"
-    return "yes"
+            return False
+    return True
 
 
-def make_all_games():
-    min_number = 1
-    max_number = 21
-    number = randint(min_number, max_number)
+def make_game():
+    number = randint(MIN_NUM, MAX_NUM)
     question = str(number)
-    return question, is_prime(number)
+    if is_prime(number) is False:
+        return question, 'no'
+    else:
+        return question, 'yes'
+
